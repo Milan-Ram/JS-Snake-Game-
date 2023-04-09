@@ -13,6 +13,10 @@ let key1 = document.getElementById('key1')
 let key2 = document.getElementById('key2')
 let key3 = document.getElementById('key3')
 let key4 = document.getElementById('key4')
+key1 = "ArrowLeft";
+key2 = "ArrowUp";
+key3 = "ArrowRight";
+key4 = "ArrowDown";
 // let board = document.getElementById("board");
 
 // -----Game Functions -----------------------------------------------------------------
@@ -120,7 +124,10 @@ switch (e.key) {
     break;
 }
 })
-key2.addEventListener('click',()=>{{inputDir.x=0;inputDir.y=-1;}});
-key4.addEventListener('click',()=>{{inputDir.x=0;inputDir.y=1;}});
-key1.addEventListener('click',()=>{{inputDir.x=-1;inputDir.y=0;}});
-key3.addEventListener('click',()=>{{inputDir.x=1;inputDir.y=0;}});
+// key2.addEventListener('click',()=>{ inputDir={x:0 , y:-1}});
+// key4.addEventListener('click',()=>{ inputDir={x:0 , y:1}});
+// key1.addEventListener('click',()=>{ inputDir={x:-1, y:0}});
+// key3.addEventListener('click',()=>{ inputDir={x:1 , y:0}});
+// key4.addEventListener('click',()=>{{inputDir.x=0;inputDir.y=1;}});
+// key1.addEventListener('click',()=>{{inputDir.x=-1;inputDir.y=0;}});
+// key3.addEventListener('click',()=>{{inputDir.x=1;inputDir.y=0;}});
