@@ -50,3 +50,28 @@ body{
     border: 0.25vmin solid #000;
     border-radius: 10px;
 }
+.keyContainer{
+    position: absolute;
+display: flex;
+gap: 0.7rem;
+bottom: 1rem;
+display: none;
+}
+.keys{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    background-color: #fff;
+    padding: 0.2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+@media screen and (max-width:1000px){
+    .keyContainer{
+        display: flex;
+    }
+}
+    
